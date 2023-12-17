@@ -49,7 +49,7 @@ const Navbar = () => {
             <div className=" flex justify-between items-center m-0 fixed">
 
                 <div className="Logo">
-                    <h2 className="text-2xl font-black text-dark ml-24">Veerendra</h2>
+                    <h2 className="text-2xl font-black text-dark ml-24">Portfolio</h2>
                 </div>
 
                 <div className="links flex flex-row items-center justify-center ml-[500px]">
@@ -66,7 +66,7 @@ const Navbar = () => {
                                     isDynamic={true}
                                     ignoreCancelEvents={false}
                                     spyThrottle={500}
-                                    className="cursor-pointer text-dark font-inter text-lg font-medium tracking-tight py-1 px-8 hover:text-blue-500">
+                                    className="cursor-pointer text-dark font-inter text-lg font-semibold tracking-tight py-1 px-8 hover:text-blue-500">
                                     {item.name}
                                 </Link>
                             </div>

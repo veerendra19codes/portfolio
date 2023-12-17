@@ -13,6 +13,9 @@ export default {
       },
       colors: {
         dark: "#0d1117",
+        darkBlue: "#141A31",
+        lightBlue: "#14BB9E",
+        white: "#F9F9F9"
       }
     },
   },
