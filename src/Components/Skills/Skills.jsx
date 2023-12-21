@@ -15,7 +15,7 @@ const Skills = () => {
     return (
         <div id="skills" className="skills w-full bg-darkBlue rounded-2xl">
             <div className="font-inter text-2xl font-light text-lightBlue mt-4">Skills</div>
-            <div className="font-inter text-5xl font-medium text-white">My Skills</div>
+            <div className="font-syne text-5xl font-medium text-white">My Skills</div>
 
             <div className="container w-full my-8 mx-auto px-4 flex justify-center content-center items-center">
                 <div className="grid grid-cols-5 pl-[40px] w-full mx-auto">

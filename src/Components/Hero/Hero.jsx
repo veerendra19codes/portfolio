@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="left w-1/2 h-[500px] justify-center content-center items-center place-content-center pt-28 pl-32">
                 <div className="text-[12x] pl-1 font-inter font-medium text-start">Hi, I am </div>
                 <div className="text-[40px] font-inter font-black text-start -mt-2 p-0">Veerendra Gumate</div>
-                <div className="text-[32px] font-inter font-extrabold text-blue-600 text-start -mt-2 p-0">Web Developer</div>
+                <div className="text-[32px] font-syne font-extrabold text-blue-600 text-start -mt-2 p-0">Web Developer</div>
                 <div className="location text-start">
                     <div className="h-[30px] m-0 p-0 flex justify-start content-center self-center text-start">
                         <IoLocationSharp className="w-[30px] h-[30px] -ml-1 p-0" size={30} color="green" />

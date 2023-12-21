@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
 import Skills from './Components/Skills/Skills'
+import Projects from './Components/Projects/Projects'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <br></br>
       <Hero></Hero>
       <Skills></Skills>
+      <Projects></Projects>
     </div>
   )
 }
