@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Hero = () => {
     return (
-        <div id="aboutme" className="Hero w-full h-[600px] mt-16 flex flex-row justify-around gap-4">
+        <div id="aboutme" className="Hero w-full h-[600px] mt-32 flex flex-row justify-around gap-4">
             <div className="left w-1/2 h-[500px] justify-center content-center items-center place-content-center pt-28 pl-32">
                 <div className="text-[12x] pl-1 font-inter font-medium text-start">Hi, I am </div>
                 <div className="text-[40px] font-inter font-black text-start -mt-2 p-0">Veerendra Gumate</div>

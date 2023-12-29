@@ -13,12 +13,12 @@ import github from "../../assets/images/github.png"
 
 const Skills = () => {
     return (
-        <div id="skills" className="skills w-full bg-darkBlue rounded-2xl">
-            <div className="font-inter text-2xl font-light text-lightBlue mt-4">Skills</div>
-            <div className="font-syne text-5xl font-medium text-white">My Skills</div>
+        <div id="skills" className="skills w-full bg-darkBlue ">
+            <div className="font-inter text-2xl font-light text-center text-lightBlue mt-4">Skills</div>
+            <div className="font-syne text-5xl font-medium text-center text-white">My Skills</div>
 
             <div className="container w-full my-8 mx-auto px-4 flex justify-center content-center items-center">
-                <div className="grid grid-cols-5 pl-[40px] w-full mx-auto">
+                <div className="grid grid-cols-5 w-full mx-auto">
                     <div className="flex flex-col justify-center items-center content-center w-[200px] h-[200px]">
                         <div className="flex flex-none justify-center h-[120px] w-[120px] items-center">
                             <img className="w-full h-full p-4 self-center bg-transparent" src={html} alt="html"></img>

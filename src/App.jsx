@@ -6,6 +6,8 @@ import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
 import Skills from './Components/Skills/Skills'
 import Projects from './Components/Projects/Projects'
+import ContactMe from './Components/ContactMe/ContactMe'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,10 +15,11 @@ function App() {
   return (
     <div className="App h-full w-full m-0 p-0 gap-4 flex flex-col justify-center items-center">
       <Navbar></Navbar>
-      <br></br>
       <Hero></Hero>
       <Skills></Skills>
       <Projects></Projects>
+      <ContactMe></ContactMe>
+      <Footer></Footer>
     </div>
   )
 }

@@ -7,12 +7,12 @@ import { FaCode } from "react-icons/fa6";
 
 const Projects = () => {
     return (
-        <div className="Projects flex flex-col w-full mt-4">
-            <div className="font-inter text-2xl font-light text-lightBlue mt-4">Projects</div>
-            <div className="font-syne text-5xl font-medium text-darkBlue">My Projects</div>
+        <div className="Projects flex flex-col w-full mt-4 p-4" id="project">
+            <div className="font-inter text-2xl font-light text-center text-lightBlue mt-4">Projects</div>
+            <div className="font-syne text-5xl font-medium text-center text-darkBlue">My Projects</div>
 
             {/* all cards container */}
-            <div className="cards flex flex-row gap-12 justify-center w-full p-4">
+            <div className="cards flex flex-row gap-4 justify-center w-full px-24 mt-12">
 
                 {/* card1 starts */}
                 <div className="card1 flex flex-col p-2 border-2 border-gray-200 h-[500px] min-w-[400px] rounded-xl hover:shadow-custom hover:-translate-y-4 duration-500">
