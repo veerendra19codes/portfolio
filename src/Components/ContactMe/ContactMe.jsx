@@ -1,32 +1,32 @@
 import React from 'react'
 import { motion, AnimatePresence } from "framer-motion"
-
+import { IoMdMail } from "react-icons/io";
+import { IoLocationSharp } from "react-icons/io5";
 
 const ContactMe = () => {
     const onSubmit = (e) => {
         e.preventDefault();
     }
     return (
-        <div className="contactme w-full px-56 py-32 m-0 text-white" id="contact">
+        <div className="contactme w-full px-56 py-32 m-0 text-white sm:p-4" id="contact">
 
-            <div className="flex flex-row justify-evenly items-center">
+            <div className="flex flex-row justify-evenly items-center sm:flex-col sm:p-4">
 
-                <div className="flex flex-col text-start w-1/2 ">
-                    <div className="-mt-[250px] w-full h-full ">
-
-
-                        <div className="font-inter text-2xl font-light text-lightBlue mt-4">Contact Me</div>
-                        <div className="font-syne text-5xl font-medium text-darkBlue">Send me a mail</div>
-                        <div className="text-dark">veerendragumate@gmail.com</div>
-                        <div className="text-dark"  >Mumbai,India</div>
+                <div className="flex flex-col text-start w-1/2 sm:w-full">
+                    <div className="-mt-[250px] w-full h-full sm:m-0">
+                        <div className="font-inter text-2xl font-light text-lightBlue mt-4 sm:text-xl">Contact Me</div>
+                        <div className="font-syne text-5xl font-semibold text-darkBlue sm:text-3xl">Send me a mail</div>
+                        <div className="text-dark flex flex-row gap-1">
+                            <IoMdMail className="flex  self-center text-sm w-[20px] h-[20px]" size={20} color="blue" />veerendragumate@gmail.com</div>
+                        <div className="text-dark flex flex-row gap-1"  ><IoLocationSharp className="flex  self-center text-sm w-[20px] h-[20px]" size={20} color="green" />Mumbai,India</div>
                     </div>
                 </div>
 
                 <form className="" onSubmit={onSubmit}>
-                    <div className="flex flex-col justify-center items-center w-full bg-sky-400 gap-4 p-8 rounded-xl">
-                        <input type="text" name="name" placeholder="Name" className="w-[500px] h-[50px] pl-4" />
-                        <input type="email" name="email" placeholder="Email" className="w-[500px] h-[50px] pl-4" />
-                        <textarea type="text" name="message" placeholder="type your message here..." className="w-[500px] h-[200px] pl-4 pt-4" />
+                    <div className="flex flex-col justify-center items-center w-full bg-sky-400 gap-4 p-8 rounded-xl sm:p-4 sm:mt-8">
+                        <input type="text" name="name" placeholder="Name" className="w-[500px] h-[50px] pl-4 sm:w-[250px] sm:h-[40px]" />
+                        <input type="email" name="email" placeholder="Email" className="w-[500px] h-[50px] pl-4 sm:w-[250px] sm:h-[40px]" />
+                        <textarea type="text" name="message" placeholder="type your message here..." className="w-[500px] h-[200px] pl-4 pt-4 sm:w-[250px] sm:h-[100px] sm:m-0" />
                         <motion.button
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}

@@ -35,7 +35,7 @@ function App() {
   }
 
   return (
-    <div className="App h-full w-full m-0 p-0 flex flex-col justify-center items-center">
+    <div className="App h-full w-full m-0 p-0 flex flex-col justify-center items-center overflow-x-hidden">
       <Navbar></Navbar>
       <Hero></Hero>
       <Skills></Skills>
