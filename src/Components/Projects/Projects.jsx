@@ -45,7 +45,7 @@ const Projects = () => {
                         <h1 className="projectTitle text-[24px] h-[24px] p-0 font-inter font-extrabold text-start">
                             CareerExpo
                         </h1>
-                        <h3 className="projectDesc text-[12x] mt-4 pl-0 font-inter font-medium text-start sm:text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente atque distinctio quos inventore repudiandae eveniet laborum quaerat ea. Distinctio facere aliquam, repellendus impedit aut labore explicabo nobis illo ut tempora?</h3>
+                        <h3 className="projectDesc text-sm mt-4 pl-0 font-inter font-medium text-start sm:text-[10px]">CareerExpo is a web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, designed to assist individuals in navigating their career paths. The platform combines career assessment tools with personalized recommendations, helping users make informed decisions about their professional journey.</h3>
                         <h3 className="projectTech flex flex-row justify-start mt-4 flex-wrap gap-2">
                             <p className="px-2 py-0 bg-green-800 font-inter text-white text-center text-extrabold text-wrap  text-sm ml-0 align-middle">React</p>
                             <p className="px-2 py-0 bg-green-800 font-inter text-white  text-center text-extrabold text-wrap  text-sm align-middle">Nodejs</p>
@@ -82,7 +82,7 @@ const Projects = () => {
                         <h1 className="projectTitle text-[24px] h-[24px] p-0 font-inter font-extrabold text-start">
                             MovieLand
                         </h1>
-                        <h3 className="projectDesc text-[12x] mt-4 pl-0 font-inter font-medium text-start sm:text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente atque distinctio quos inventore repudiandae eveniet laborum quaerat ea. Distinctio facere aliquam, repellendus impedit aut labore explicabo nobis illo ut tempora?</h3>
+                        <h3 className="projectDesc text-sm mt-4 pl-0 font-inter font-medium text-start sm:text-[10px]">MovieLand is a web application developed using React.js, designed to fetch and display movie information from the OMDB API. The user-friendly interface incorporates a search bar, allowing users to filter a vast database of movies seamlessly.The project's responsive design ensures accessibility across various devices.</h3>
                         <h3 className="projectTech flex flex-row justify-start mt-4 gap-2 flex-wrap">
                             <p className="px-2 py-0 bg-green-800 font-inter text-white text-center text-extrabold text-wrap  text-sm ml-0 align-middle">React</p>
                             <p className="px-2 py-0 bg-green-800 font-inter text-white  text-center text-extrabold text-wrap  text-sm align-middle">API</p>
@@ -117,7 +117,7 @@ const Projects = () => {
                         <h1 className="projectTitle text-[24px] h-[24px] p-0 font-inter font-extrabold text-start">
                             Resto
                         </h1>
-                        <h3 className="projectDesc text-[12x] mt-4 pl-0 font-inter font-medium text-start text-light text-base sm:text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente atque distinctio quos inventore repudiandae eveniet laborum quaerat ea. Distinctio facere aliquam, repellendus impedit aut labore explicabo nobis illo ut tempora?</h3>
+                        <h3 className="projectDesc text-sm mt-4 pl-0 font-inter font-medium text-start text-light text-base sm:text-[10px]">Resto is a responsive food order website designed to provide users with a seamless experience in exploring a variety of delicious dishes and placing orders online. Built using HTML, CSS, and JavaScript, the website offers an intuitive interface, ensuring accessibility across devices for a delightful food ordering experience.</h3>
                         <h3 className="projectTech flex flex-row justify-start mt-4 gap-2 flex-wrap">
                             <p className="px-2 py-0 bg-green-800 font-inter text-white text-center text-extrabold text-wrap  text-sm ml-0 align-middle">HTML</p>
                             <p className="px-2 py-0 bg-green-800 font-inter text-white  text-center text-extrabold text-wrap  text-sm align-middle">CSS</p>

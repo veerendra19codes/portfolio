@@ -12,7 +12,7 @@ const ContactMe = () => {
 
             <div className="flex flex-row justify-evenly items-center sm:flex-col sm:p-4">
 
-                <div className="flex flex-col text-start w-1/2 sm:w-full">
+                <div className="flex flex-col text-start w-1/2 sm:w-full pl-2">
                     <div className="-mt-[250px] w-full h-full sm:m-0">
                         <div className="font-inter text-2xl font-light text-lightBlue mt-4 sm:text-xl">Contact Me</div>
                         <div className="font-syne text-5xl font-semibold text-darkBlue sm:text-3xl">Send me a mail</div>
