@@ -6,12 +6,29 @@ import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { motion, AnimatePresence } from "framer-motion"
 
+const PDF_FILE_URL = "https://veerendra-portfolio.netlify.app/ResumeVeerendraGumate.pdf"
+
 const Hero = () => {
+
+    const downloadFileAtUrl = (url) => {
+        fetch(url).then(response => response.blob()).then(blob => {
+            const blobURL = window.URL.createObjectURL(new Blob([blob]))
+
+            const fileName = url.split('/').pop();
+            const aTag = document.createElement('a');
+            aTag.href = blobURL;
+            aTag.setAttribute('download', fileName);
+            document.body.appendChild(aTag);
+            aTag.click();
+            aTag.remove();
+        })
+
+    }
 
     return (
         <AnimatePresence>
-            <div id="aboutme" className="Hero w-full h-[600px] mt-32 flex flex-row justify-around gap-4 px-24 sm:flex-col-reverse sm:p-0 sm:mt-16">
-                <div className="left w-1/2 h-[500px] justify-center content-center items-center place-content-center pt-28 pl-32 sm:p-4 sm:w-full sm:pt-8">
+            <div id="aboutme" className="Hero w-full h-[600px] mt-32 flex flex-row justify-around gap-4 px-24 sm:flex-col-reverse sm:p-0 sm:mt-16 lg:px-8">
+                <div className="left w-1/2 h-[500px] justify-center content-center items-center place-content-center pt-28 pl-32 sm:p-4 sm:w-full sm:pt-8 lg:pl-4">
                     <motion.div
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
@@ -38,7 +55,7 @@ const Hero = () => {
                         transition={{ duration: 0.5, delay: 0.6 }}
                         exit={{ opacity: 0, x: 0 }}
                         viewport={{ once: true }}
-                        className="text-[32px] font-syne font-extrabold text-blue-600 text-start -mt-2 p-0 sm:text-center sm:text-xl sm:text-center sm:py-1"
+                        className="text-[32px] font-extrabold font-petitFormal text-blue-600 text-start -mt-2 p-0 sm:text-center sm:text-xl sm:text-center sm:py-1"
                     >
                         Web Developer
                     </motion.div>
@@ -60,7 +77,7 @@ const Hero = () => {
                         transition={{ duration: 0.5, delay: 1.2 }}
                         exit={{ opacity: 0, x: 0 }}
                         viewport={{ once: true }}
-                        className="icons flex flex-row gap-4 mt-4 sm:justify-center sm:mt-24">
+                        className="icons flex flex-row gap-4 mt-4 sm:justify-center sm:mt-4">
                         <a href="https://www.linkedin.com/in/veerendragumate" target="_blank">
                             <FaLinkedinIn className="w-[30px] h-[30px] m-0 p-1 cursor-pointer text-blue-700 hover:text-white hover:bg-blue-700 rounded" size={30}
                             />
@@ -71,6 +88,18 @@ const Hero = () => {
                         <a href="https://twitter.com/Veerendra_198" target="_blank">
                             <FaXTwitter className="w-[30px] h-[30px] m-0 p-1 cursor-pointer hover:text-white hover:bg-black rounded" size={30} />
                         </a>
+                    </motion.div>
+
+                    <motion.div
+                        initial={{ opacity: 0, x: -100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.5, delay: 1.5 }}
+                        exit={{ opacity: 0, x: 0 }}
+                        viewport={{ once: true }}
+                        className=" flex mt-4 sm:justify-center sm:mt-4">
+                        <button className="bg-blue-500 px-4 py-2 text-white rounded-xl hover:bg-blue-400 font-inter" onClick={() => {
+                            downloadFileAtUrl(PDF_FILE_URL)
+                        }}>View Resume</button>
                     </motion.div>
                 </div>
                 <div

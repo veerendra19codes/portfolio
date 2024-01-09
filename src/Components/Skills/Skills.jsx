@@ -45,7 +45,7 @@ const Skills = () => {
                     transition={{ duration: 1, delay: 0.3 }}
                     viewport={{ once: true }}
                     className="container w-full my-24 mx-auto px-4 flex justify-center content-center items-center sm:mt-8 sm:px-0 sm:mx-0">
-                    <div className="grid grid-cols-5 gap-4 place-content-center m-0 p-0 mx-4 sm:grid-cols-2 sm:gap-1 sm:mx-0">
+                    <div className="grid grid-cols-5 gap-4 place-content-center m-0 p-0 mx-4 sm:grid-cols-2 sm:gap-1 sm:mx-0 lg:grid-cols-4">
                         <motion.div
                             initial={{ opacity: 0, y: 100 }}
                             whileInView={{ opacity: 1, y: 0 }}
