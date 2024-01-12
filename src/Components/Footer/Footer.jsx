@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from "framer-motion"
 
 const Footer = () => {
     return (
-        <div className="flex flex-row justify-around w-full bg-gray-300 p-4 border-t-2 border-gray-400 m-0 sm:flex-col sm:justify-center sm:py-2 sm:mt-24">
+        <div className="flex flex-row justify-around w-full bg-slate-300 p-4 border-t-2 border-gray-400 m-0 sm:flex-col sm:justify-center sm:py-2 sm:mt-24">
             <div className="left">
                 <div className="text-[12x] pl-1 font-inter font-medium text-start sm:p-0 sm:text-sm sm:text-center">Copyright @Veerendra Gumate. </div>
                 <div className="text-[12x] pl-1 font-inter font-medium text-start sm:p-0 sm:text-sm sm:text-center">All rights reserved</div>
