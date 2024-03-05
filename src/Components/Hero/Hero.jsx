@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { motion, AnimatePresence } from "framer-motion"
 
-const PDF_FILE_URL = "https://veerendra-portfolio.netlify.app/VeerendraGumate.pdf"
+const PDF_FILE_URL = "https://portfolio-7nhgmfk4i-veerendra19codes.vercel.app/VeerendraGumate.pdf"
 
 const Hero = () => {
 
